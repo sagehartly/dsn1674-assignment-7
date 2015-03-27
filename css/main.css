@@ -10,3 +10,35 @@ body {
   margin: 0;
   font-family: "Dosis";
 }
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1em;
+}
+
+nav {
+  margin: 0;
+  overflow: hidden;
+
+  background-color: #512200;
+
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+nav li {
+  float: left;
+  width: 25%;
+  list-style-type: none;
+  display: block;
+}
+
+.main {
+  clear: both;
+  background-image: url("../images/logo.svg");
+}
+
+footer {
+
+}
