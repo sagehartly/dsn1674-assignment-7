@@ -11,16 +11,37 @@ body {
   font-family: "Dosis";
 }
 
+header {
+  padding: 1em 0 4em 0;
+}
+
+.header-beetle-left {
+  width: 10%;
+  float: left;
+}
+
+.header-beetle-right {
+  width: 10%;
+  float: right;
+  top: 30px;
+}
+
 h1 {
   font-size: 2rem;
   text-align: center;
-  padding: 1em;
+  padding: 0;
+  margin: 0;
+  float: left;
+  width: 80%;
+  text-align: center;
 }
 
 nav {
+  clear: both;
   margin: 0;
   overflow: hidden;
   background-color: #512200;
+
   font-size: 1.125rem;
   text-align: center;
 }
@@ -35,7 +56,6 @@ nav li {
 .main {
   clear: both;
   background-image: url("../images/dirt.jpg");
-  background-image: linear-gradient(to bottom, black);
   margin: 0;
   padding-top: 10em;
 }
@@ -44,9 +64,24 @@ h2 {
   color: white;
   text-align: center;
   font-weight: 400;
-  padding: 0 1em 0 1em;
+  padding: 4em 1em 0 1em;
+  background-image: linear-gradient(to bottom, transparent, black);
 }
 
+.left-beetle {
+  float: left;
+  width: 50%;
+}
+
+.right-beetle {
+  float: right;
+  width: 50%;
+}
+
+.footer-beetle {
+  width: 10%;
+}
 footer {
+  background-color: #512200;
 
 }
