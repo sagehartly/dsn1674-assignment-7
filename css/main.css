@@ -20,9 +20,7 @@ h1 {
 nav {
   margin: 0;
   overflow: hidden;
-
   background-color: #512200;
-
   font-size: 1.125rem;
   text-align: center;
 }
@@ -36,7 +34,17 @@ nav li {
 
 .main {
   clear: both;
-  background-image: url("../images/logo.svg");
+  background-image: url("../images/dirt.jpg");
+  background-image: linear-gradient(to bottom, black);
+  margin: 0;
+  padding-top: 10em;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  padding: 0 1em 0 1em;
 }
 
 footer {
