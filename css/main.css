@@ -68,20 +68,17 @@ h2 {
   background-image: linear-gradient(to bottom, transparent, black);
 }
 
-.left-beetle {
-  float: left;
-  width: 50%;
-}
-
-.right-beetle {
-  float: right;
-  width: 50%;
+.btn-left1 {
+  background-image: url("../images/ant-nest-beetle.jpg");
+  background-size:75px auto, 200px auto;
+  padding: 2em;
 }
 
 .footer-beetle {
   width: 10%;
 }
 footer {
+  clear: both;
   background-color: #512200;
 
 }
