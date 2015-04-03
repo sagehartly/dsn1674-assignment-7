@@ -38,16 +38,14 @@ h1 {
   float: left;
   width: 80%;
   text-align: center;
+  color: #512200;
 }
 
 nav {
   clear: both;
   margin: 0;
   overflow: hidden;
-  background-color: #512200;
-  background-color: rgba(0, 0, 0, 0.5)
-
-  font-size: 1.125rem;
+  background-color: rgba(81, 34, 0, 0.5);
   text-align: center;
 }
 
@@ -56,6 +54,22 @@ nav li {
   width: 25%;
   list-style-type: none;
   display: block;
+  padding: 0 0 0.75em 0;
+  font-size: 1.5em
+}
+
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  background-color: rgba(81, 34, 0, 0.4);
+  padding: 1em 1.25em 1em 1.25em;
 }
 
 .main {
@@ -73,6 +87,10 @@ h2 {
   margin: 0;
   background-image: linear-gradient(to bottom, transparent, black);
   bottom: 1em;
+}
+
+figure {
+  margin: 0;
 }
 
 .pic-left {
@@ -119,22 +137,14 @@ figcaption {
   bottom: -1em;
 }
 
-.boxes2 {
-  clear: both;
-}
-
-figure {
-  margin: 0;
-}
-
 footer {
   clear: both;
+  background-color: rgba(81, 34, 0, 0.5);
+  margin: 0 auto;
 }
 
 .footer-beetle {
-  width: 10%;
-}
-footer {
-  clear: both;
-  background-color: #512200;
+  width: 30px;
+  padding: 0.5em 0 0.5em 0;
+  margin: 0 auto;
 }
