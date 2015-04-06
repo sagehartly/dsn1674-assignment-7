@@ -55,13 +55,14 @@ nav li {
   width: 25%;
   list-style-type: none;
   display: block;
-  padding: 0 0 0.75em 0;
+  padding: 0.5em 0 0.5em 0;
   font-size: 1.2em;
   font-weight: 600;
 }
 
 ul {
   padding: 0;
+  margin: 0;
 }
 
 a {
