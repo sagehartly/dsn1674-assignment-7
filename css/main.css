@@ -36,9 +36,8 @@ h1 {
 
 .header-beetle-right {
   width: 10%;
-  float: right;
+  float: left;
   top: 30px;
-  right: 5px;
   padding: 0.7em 0.5em 0.5em 0;
 }
 
